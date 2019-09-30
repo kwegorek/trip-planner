@@ -3,22 +3,42 @@
 }
 
 body {
-  margin: 0;
-  border: solid white;
+  margin: 20 20;
+  border: solid balck;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #C1B5AD;
+  background-color: white;
+  padding: 100px; 
+
 }
 
+div#map{
+
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+h1{
+  text-align: center; 
+}
 #map {
-  height: 100vh;
-  width: 100vw;
+  height: 50vh;
+  width: 90vw;
+
 }
 
 .marker {
-  background-image: url('http://i.imgur.com/WbMOfMl.png');
+  /* background-image: url('http://i.imgur.com/WbMOfMl.png'); */
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
+
+
+
+
